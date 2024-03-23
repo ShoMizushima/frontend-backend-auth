@@ -1,0 +1,2 @@
+# frontend-backend-auth
+backendでGoogle認証を行い、フロントエンドはbackend側のリダイレクトに従う
