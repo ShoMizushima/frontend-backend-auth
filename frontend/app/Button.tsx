@@ -9,7 +9,9 @@ interface Props {
 
 const buttonClick = () => {
   axios
-    .get("http://localhost:8080/get")
+    .get("http://localhost:8080/get", {
+      withCredentials: true,
+    })
     .then((res) => {
       alert(res.data);
     })
